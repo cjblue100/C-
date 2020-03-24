@@ -1,5 +1,6 @@
 #include "stack.h"
-
+#include <iostream>
+#include <fstream>
 stack::stack() : primero(nullptr), ultimo(nullptr)
 {
 }
@@ -48,8 +49,10 @@ bool stack:: pop()
 	if (actual == ultimo)
 	{
 		ultimo = ultimo->getAnterior();
-
-		delete actual;
+		primero = primero->getSiguiente();
+		
+		
+		
 	}
 	return true;
 }
@@ -57,4 +60,42 @@ bool stack:: pop()
 void stack::print()
 {
 	printRec(primero);
+	
+}
+
+void stack::printRec(nodo* _primero)
+{
+	if (_primero == nullptr)
+		return;
+
+	cout << "[ " << _primero->getValor() << " / " << _primero->getNombre() << " ]";
+	printRec(_primero->getSiguiente());
+
+
+}
+
+void stack::saveFile()
+{
+	
+	usuario.open("usuario.dat", ios::in | ios::out | ios::app | ios::binary);
+
+	usuarioRegistro save;
+
+	nodo* actual = primero;
+
+	while (actual->getSiguiente() != nullptr)
+	{
+		save.valor = actual->getValor();
+		save.nombre = actual->getNombre();
+		
+		usuario.write(reinterpret_cast<const char*>(&save), sizeof(usuarioRegistro));
+		
+		actual = actual->getSiguiente();
+
+	}
+
+	usuario.close();
+
+	cout << "\nArchivo creado";
+
 }
