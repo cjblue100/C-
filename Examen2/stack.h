@@ -1,6 +1,16 @@
 #pragma once
-
 #include "nodo.h"
+using namespace std;
+#include <fstream>
+
+
+
+struct usuarioRegistro
+{
+	int valor;
+	const char* nombre;
+};
+
 
 
 class stack
@@ -8,7 +18,7 @@ class stack
 private:
 	nodo* primero;
 	nodo* ultimo;
-
+	fstream usuario;
 public:
 	stack();
 
