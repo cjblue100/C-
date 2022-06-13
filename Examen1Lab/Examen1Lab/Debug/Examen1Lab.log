@@ -1,0 +1,5 @@
+﻿  polinomio.cpp
+C:\Users\Carlos\source\repos\Examen1Lab\Examen1Lab\polinomio.cpp(109): warning C4172: returning address of local variable or temporary: resta
+C:\Users\Carlos\source\repos\Examen1Lab\Examen1Lab\polinomio.cpp(131): warning C4172: returning address of local variable or temporary: multi
+C:\Users\Carlos\source\repos\Examen1Lab\Examen1Lab\polinomio.cpp(83): warning C4172: returning address of local variable or temporary: suma
+  Examen1Lab.vcxproj -> C:\Users\Carlos\source\repos\Examen1Lab\Debug\Examen1Lab.exe

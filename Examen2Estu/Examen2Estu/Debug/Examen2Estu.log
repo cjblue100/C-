@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Carlos\source\repos\Examen2Estu\Examen2Estu\main.cpp(8,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Carlos\source\repos\Examen2Estu\Examen2Estu\main.cpp(31,26): warning C4018: '<': signed/unsigned mismatch
+  Examen2Estu.vcxproj -> C:\Users\Carlos\source\repos\Examen2Estu\Debug\Examen2Estu.exe
