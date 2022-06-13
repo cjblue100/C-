@@ -1,0 +1,12 @@
+﻿  probar.cpp
+probar.obj : error LNK2019: unresolved external symbol SDL_MapRGB referenced in function SDL_main
+probar.obj : error LNK2019: unresolved external symbol SDL_FillRect referenced in function SDL_main
+probar.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDL_main
+probar.obj : error LNK2019: unresolved external symbol SDL_GetWindowSurface referenced in function SDL_main
+probar.obj : error LNK2019: unresolved external symbol SDL_UpdateWindowSurface referenced in function SDL_main
+probar.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function SDL_main
+probar.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function SDL_main
+probar.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+probar.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function SDL_main
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Carlos\source\repos\sdlworld\x64\Debug\sdlworld.exe : fatal error LNK1120: 10 unresolved externals
