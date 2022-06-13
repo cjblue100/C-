@@ -1,0 +1,6 @@
+﻿  alumno.cpp
+C:\Users\Carlos\source\repos\EjercicioMatricula\EjercicioMatricula\alumno.cpp(64,37): warning C4244: '=': conversion from 'std::streamoff' to 'long', possible loss of data
+  main.cpp
+  materia.cpp
+  Generating Code...
+  EjercicioMatricula.vcxproj -> C:\Users\Carlos\source\repos\EjercicioMatricula\Debug\EjercicioMatricula.exe
