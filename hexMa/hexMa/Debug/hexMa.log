@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Carlos\source\repos\hexMa\hexMa\main.cpp(15,20): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\Carlos\source\repos\hexMa\hexMa\main.cpp(15,20): warning C4309: 'initializing': truncation of constant value
+  hexMa.vcxproj -> C:\Users\Carlos\source\repos\hexMa\Debug\hexMa.exe
