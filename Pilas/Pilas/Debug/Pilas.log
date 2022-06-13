@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Carlos\source\repos\Pilas\Pilas\main.cpp(42,6): warning C4101: 'c': unreferenced local variable
+  Pilas.vcxproj -> C:\Users\Carlos\source\repos\Pilas\Debug\Pilas.exe
