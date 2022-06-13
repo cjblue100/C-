@@ -1,0 +1,12 @@
+0
+Fuerza que se ejerce sobre todos los cuerpos
+GRAVEDAD
+1
+Producto de masa por aceleracion
+FUERZA
+2
+Relacion entre movimiento y fuerzas que lo provocan
+DINAMICA
+3
+Unidad de medidas que forma parte de peso
+MASA

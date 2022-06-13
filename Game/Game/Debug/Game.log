@@ -1,0 +1,18 @@
+﻿  archivo.cpp
+  GameObj.cpp
+  Inicio.cpp
+  Juego.cpp
+C:\Users\Carlos\source\repos\Game\Game\Juego.cpp(172,5): warning C4551: function call missing argument list
+  maincpp.cpp
+C:\Users\Carlos\source\repos\Game\Game\maincpp.cpp(24,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  manzanaObj.cpp
+C:\Users\Carlos\source\repos\Game\Game\manzanaObj.cpp(65,21): warning C4018: '<': signed/unsigned mismatch
+  menuA.cpp
+  playerObj.cpp
+C:\Users\Carlos\source\repos\Game\Game\playerObj.cpp(59,24): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  text.cpp
+  TextureManager.cpp
+  Generating Code...
+C:\Users\Carlos\source\repos\Game\Game\GameObj.cpp(71): warning C4715: 'GameObj::evaluateY': not all control paths return a value
+C:\Users\Carlos\source\repos\Game\Game\GameObj.cpp(63): warning C4715: 'GameObj::pressEnter': not all control paths return a value
+  Game.vcxproj -> C:\Users\Carlos\source\repos\Game\Debug\Game.exe
