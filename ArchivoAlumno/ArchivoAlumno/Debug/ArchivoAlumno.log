@@ -1,0 +1,8 @@
+﻿  alumno.cpp
+C:\Users\Carlos\source\repos\ArchivoAlumno\ArchivoAlumno\alumno.cpp(66,37): warning C4244: '=': conversion from 'std::streamoff' to 'long', possible loss of data
+  materias.cpp
+  mein.cpp
+  Nota.cpp
+C:\Users\Carlos\source\repos\ArchivoAlumno\ArchivoAlumno\Nota.cpp(70,7): warning C4101: 'nCuenta': unreferenced local variable
+  Generating Code...
+  ArchivoAlumno.vcxproj -> C:\Users\Carlos\source\repos\ArchivoAlumno\Debug\ArchivoAlumno.exe
