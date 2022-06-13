@@ -1,0 +1,6 @@
+﻿  Racional.cpp
+  main.cpp
+C:\Users\Carlos\source\repos\Actividad4\Actividad4\main.cpp(15,2): warning C4551: function call missing argument list
+  Generating Code...
+C:\Users\Carlos\source\repos\Actividad4\Actividad4\Racional.cpp(19): warning C4172: returning address of local variable or temporary: suma
+  Actividad4.vcxproj -> C:\Users\Carlos\source\repos\Actividad4\Debug\Actividad4.exe

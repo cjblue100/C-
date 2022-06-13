@@ -1,0 +1,19 @@
+﻿  Array.cpp
+C:\Users\Carlos\source\repos\Actividad3\Actividad3\Array.cpp(72,33): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Carlos\source\repos\Actividad3\Actividad3\Array.cpp(82,33): warning C4018: '>=': signed/unsigned mismatch
+  figura10.10.cpp
+C:\Users\Carlos\source\repos\Actividad3\Actividad3\figura10.10.cpp(72,33): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Carlos\source\repos\Actividad3\Actividad3\figura10.10.cpp(82,33): warning C4018: '>=': signed/unsigned mismatch
+  figura9.cpp
+  Generating Code...
+figura10.10.obj : error LNK2005: "public: __thiscall Array::Array(class Array const &)" (??0Array@@QAE@ABV0@@Z) already defined in Array.obj
+figura10.10.obj : error LNK2005: "public: __thiscall Array::Array(int)" (??0Array@@QAE@H@Z) already defined in Array.obj
+figura10.10.obj : error LNK2005: "public: __thiscall Array::~Array(void)" (??1Array@@QAE@XZ) already defined in Array.obj
+figura10.10.obj : error LNK2005: "public: class Array const & __thiscall Array::operator=(class Array const &)" (??4Array@@QAEABV0@ABV0@@Z) already defined in Array.obj
+figura10.10.obj : error LNK2005: "class std::basic_istream<char,struct std::char_traits<char> > & __cdecl operator>>(class std::basic_istream<char,struct std::char_traits<char> > &,class Array &)" (??5@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@AAVArray@@@Z) already defined in Array.obj
+figura10.10.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class Array const &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVArray@@@Z) already defined in Array.obj
+figura10.10.obj : error LNK2005: "public: bool __thiscall Array::operator==(class Array const &)const " (??8Array@@QBE_NABV0@@Z) already defined in Array.obj
+figura10.10.obj : error LNK2005: "public: int & __thiscall Array::operator[](int)" (??AArray@@QAEAAHH@Z) already defined in Array.obj
+figura10.10.obj : error LNK2005: "public: int __thiscall Array::operator[](int)const " (??AArray@@QBEHH@Z) already defined in Array.obj
+figura10.10.obj : error LNK2005: "public: unsigned int __thiscall Array::obtenerTamanio(void)const " (?obtenerTamanio@Array@@QBEIXZ) already defined in Array.obj
+C:\Users\Carlos\source\repos\Actividad3\Debug\Actividad3.exe : fatal error LNK1169: one or more multiply defined symbols found
